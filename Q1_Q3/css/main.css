@@ -1,0 +1,70 @@
+p {
+  margin: 0;
+}
+.tname {
+  width: 100px;
+  display: inline-block;
+}
+.pass {
+  color: green;
+}
+.fail {
+  color: red;
+}
+
+.nav {
+  overflow: hidden;
+  background-color: black;
+}
+
+.nav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.question{
+  text-Align:left; 
+  font-weight:bold;
+  font-Size:24px
+}
+
+.sub-question{
+  text-Align:left; 
+  font-weight:bold;
+  font-Size:15px
+}
+
+.Q{
+  text-Align:left; 
+  padding:10px;
+  font-Size:30px;
+  color:darkred;
+}
+.ans{
+  text-Align:left; 
+  padding: 15px;
+  font-Size:18px
+}
+.comp{
+  font-size: 18px
+}
+
+.para{
+  font-size: 19px;
+
+  margin: 10px
+}
+
+.run{
+  padding: 15px
+}
