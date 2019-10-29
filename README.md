@@ -5,6 +5,7 @@
 
 ```
 >> cd Q4_realworld
+>> npm install
 >> npm start
 ```
 
