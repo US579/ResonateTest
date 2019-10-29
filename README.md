@@ -11,5 +11,5 @@
 ```
 cd Q1_Q3
 ```
-- Open `Q1_html` in browser
+- Open `Q1.html` in browser
 
