@@ -97,8 +97,8 @@ function generateShortCode(storeId, transactionId) {
   return ans
 }
 
-var a = generateShortCode(175,123)
-decodeShortCode(a);
+// var a = generateShortCode(175,123)
+// decodeShortCode(a);
 
 
 function repeatRecover(string){
@@ -132,7 +132,6 @@ function decodeShortCode(shortCode) {
     transactionId: repeatRecover(tid) // transaction id goes here
   };
 }
-decodeShortCode("rPRRTYC");
 
 function clean(){
   document.getElementById("test-results").innerHTML="";
