@@ -26,13 +26,14 @@ function string64to10(str) {
   }
   return num;
 }
-
+// convert time to 20191115 format
 function timetrans(date) {
   var Y = date.getFullYear().toString();
   var M = (date.getMonth() + 1 < 10 ? '0' + (date.getMonth() + 1) : date.getMonth() + 1);
   var D = (date.getDate() < 10 ? '0' + (date.getDate()) : date.getDate());
   return Y + M + D ;
 }
+
 // append "0" to the start of the string if not enough numbers
 function repeat(str, num) {
   if (num <= 0) {
