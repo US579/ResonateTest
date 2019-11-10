@@ -31,13 +31,13 @@
                         def removeDup(array):
                             dic = {}
                             ans = []
-                        for ele in array:
-                            if ele not in dic.keys():
-                                dic[ele] = 1
-                                ans.append(ele)
-                            else:
-                                continue
-                        return ans
+                            for ele in array:
+                                if ele not in dic.keys():
+                                    dic[ele] = 1
+                                    ans.append(ele)
+                                else:
+                                    continue
+                            return ans
                         print(removeDup(array))
                    </pre>
         <h5 class="comp">Time Complexity: O(n) on average</h5>
