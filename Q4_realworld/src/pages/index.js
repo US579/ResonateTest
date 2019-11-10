@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import Nav from "../components/nav";
 import Card from "../components/card";
-import InfiniteScroll from "react-infinite-scroller";
+
+
 
 export class index extends Component {
     constructor(props){
@@ -41,9 +42,9 @@ export class index extends Component {
         return (
           <div>
             <Nav />
-            <div class="row">
+            <div class="rows">
               <div class="card-group">
-                <div class="col">{this.renderData()}</div>
+                <div class="cols">{this.renderData()}</div>
               </div>
             </div>
           </div>
