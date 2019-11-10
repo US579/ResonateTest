@@ -1,4 +1,6 @@
 // TODO: Modify this function
+
+// convert Decimal to base64
 function string10to64(num) {
   var order = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-";
   var base = order.length;
@@ -11,7 +13,7 @@ function string10to64(num) {
   }
   return str;
 }
-
+// convert base64 to Decimal
 function string64to10(str) {
   var order = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-";
   var base = order.length;
@@ -31,7 +33,7 @@ function timetrans(date) {
   var D = (date.getDate() < 10 ? '0' + (date.getDate()) : date.getDate());
   return Y + M + D ;
 }
-
+// append "0" to the start of the string if not enough numbers
 function repeat(str, num) {
   if (num <= 0) {
     return "";
@@ -43,7 +45,7 @@ function repeat(str, num) {
     return newstr;
   }
 }
-
+// delete appended numbers
 function repeatRecover(string) {
   for (var i = 0; i < string.length; i++) {
     if (string[i] === "0") {
